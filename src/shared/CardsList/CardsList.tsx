@@ -5,9 +5,7 @@ import { Card } from './Card';
 export function CardsList() {
   return (
     <ul className={ styles.cardsList }>
-      <li>
-        <Card />
-      </li>
+      <Card />
     </ul>
   );
 }
